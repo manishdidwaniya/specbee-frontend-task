@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "title": "Chief Marketing Officer",
+    "company": "Acme Corp",
+    "image": "https://randomuser.me/api/portraits/men/1.jpg",
+    "bio": "Monotonectally synergize business communities rather than client-centric convergence.",
+    "socials": {
+      "twitter": "https://twitter.com/johndoe",
+      "linkedin": "https://linkedin.com/in/johndoe"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "title": "Chief Engagement Officer",
+    "company": "Acquia",
+    "image": "https://randomuser.me/api/portraits/women/2.jpg",
+    "bio": "Assertively unleash cross-platform best practices rather than pandemic total linkage.",
+    "socials": {
+      "twitter": "https://twitter.com/janesmith",
+      "linkedin": "https://linkedin.com/in/janesmith"
+    }
+  },
+  {
+    "id": 3,
+    "name": "David Brown",
+    "title": "Chief Technical Developer",
+    "company": "Pantheon",
+    "image": "https://randomuser.me/api/portraits/men/3.jpg",
+    "bio": "Synergistically monetize parallel infomediaries whereas 2.0 mindshare.",
+    "socials": {
+      "twitter": "https://twitter.com/davidbrown",
+      "linkedin": "https://linkedin.com/in/davidbrown"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Lucy White",
+    "title": "Chief Marketing Officer",
+    "company": "Specbee",
+    "image": "https://randomuser.me/api/portraits/women/4.jpg",
+    "bio": "Dramatically pursue real-time markets through e-business strategic themes.",
+    "socials": {
+      "twitter": "https://twitter.com/lucywhite",
+      "linkedin": "https://linkedin.com/in/lucywhite"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Mark Black",
+    "title": "Chief Innovation Officer",
+    "company": "TechWave",
+    "image": "https://randomuser.me/api/portraits/men/5.jpg",
+    "bio": "Continuously integrate and revolutionize mission-critical mindshare.",
+    "socials": {
+      "twitter": "https://twitter.com/markblack",
+      "linkedin": "https://linkedin.com/in/markblack"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Alice Green",
+    "title": "Chief Product Officer",
+    "company": "InnoTech",
+    "image": "https://randomuser.me/api/portraits/women/6.jpg",
+    "bio": "Proactively leverage scalable metrics and technologies.",
+    "socials": {
+      "twitter": "https://twitter.com/alicegreen",
+      "linkedin": "https://linkedin.com/in/alicegreen"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Bob Grey",
+    "title": "Chief Data Officer",
+    "company": "DataCorp",
+    "image": "https://randomuser.me/api/portraits/men/7.jpg",
+    "bio": "Holistically integrate resource maximizing architectures.",
+    "socials": {
+      "twitter": "https://twitter.com/bobgrey",
+      "linkedin": "https://linkedin.com/in/bobgrey"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Emma Brown",
+    "title": "Chief Experience Officer",
+    "company": "Expedia",
+    "image": "https://randomuser.me/api/portraits/women/8.jpg",
+    "bio": "Interactively evolve user-centric methodologies.",
+    "socials": {
+      "twitter": "https://twitter.com/emmabrown",
+      "linkedin": "https://linkedin.com/in/emmabrown"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Charlie Black",
+    "title": "Chief Financial Officer",
+    "company": "FinancePro",
+    "image": "https://randomuser.me/api/portraits/men/9.jpg",
+    "bio": "Seamlessly implement collaborative paradigms.",
+    "socials": {
+      "twitter": "https://twitter.com/charlieblack",
+      "linkedin": "https://linkedin.com/in/charlieblack"
+    }
+  }
+]
