@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import speakersData from '../../shared/assets/speakers.json'; // Adjust the path based on your file structure
 import './Speaker.css';
-import { FaLinkedin, FaTwitter, FaChevronLeft, FaChevronRight } from 'react-icons/fa';
+import { FaLinkedin, FaTwitter, FaChevronLeft, FaChevronRight, FaTimes } from 'react-icons/fa';
 
 const Speaker = () => {
     const [activeSpeaker, setActiveSpeaker] = useState(null);
@@ -41,7 +41,7 @@ const Speaker = () => {
                         className="absolute top-2 right-2 text-gray-500 font-semibold hover:text-gray-700"
                         onClick={() => setActiveSpeaker(null)}
                     >
-                        X
+                        <FaTimes className="text-md" />
                     </button>
                     <div className="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-4">
                         <img
@@ -90,7 +90,7 @@ const Speaker = () => {
                     onClick={handlePrev}
                     disabled={currentIndex === 0} // Disable button if at the first index
                 >
-                    <FaChevronLeft size={16} />
+                    <FaChevronLeft className="text-sm" />
                 </button>
 
                 {/* Cards */}
@@ -127,7 +127,7 @@ const Speaker = () => {
                     onClick={handleNext}
                     disabled={currentIndex >= Math.ceil(speakersCount / visibleCount) - 1}
                 >
-                    <FaChevronRight size={16} />
+                    <FaChevronRight className="text-sm" />
                 </button>
             </div>
 
