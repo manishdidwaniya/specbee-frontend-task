@@ -43,7 +43,7 @@ const Speaker = () => {
                     >
                         X
                     </button>
-                    <div className="flex items-center justify-center space-x-4">
+                    <div className="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-4">
                         <img
                             src={activeSpeaker.image}
                             alt={activeSpeaker.name}
@@ -74,7 +74,7 @@ const Speaker = () => {
                                 )}
                             </div>
                         </div>
-                        <div className="border-l border-gray-300 h-40 mx-4"></div>
+                        <div className="border-l border-gray-300 h-40 mx-4 hidden md:block"></div>
                         <div className="pr-4">
                             <p className="text-gray-500 mt-2">{activeSpeaker.bio}</p>
                         </div>
